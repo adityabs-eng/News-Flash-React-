@@ -4,7 +4,7 @@ import NewsCard from "../components/NewsCard";
 import LoadMore from "../components/LoadMore";
 import SkeletonCard from "../components/SkeletonCard";
 
-const API_KEY = "pub_ff087493c5bf43dd8c95185d3ff7d580";
+const API_KEY = import.meta.env.VITE_NEWSDATA_API_KEY;
 const BASE_URL = "https://newsdata.io/api/1/latest";
 const PAGE_SIZE = 9;
 
